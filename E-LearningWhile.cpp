@@ -12,7 +12,8 @@ while(i < 2018) {
        while(j < 2003){
   cout << " >Tahun :  " << i << " >Tarif Jalan TOL = " << j << endl;
       j++;
-      i++;} cout << "-------Keterangan Harga--------" << endl;
+      }
+      i++; cout << "-------KETERANGAN 3 BULAN (JANUARI - MARET)--------" << endl;
    } cout << "-----2015-2017 Harga Tetap-----" << endl;
    return 0;
 }
