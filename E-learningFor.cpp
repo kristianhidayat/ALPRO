@@ -13,7 +13,7 @@ int main()
   {
       for (b=a;b<c;b++)
       {
-          cout<<"$"; // Sisi Kanan
+          cout<<"*"; // Sisi Kanan
       }
 
       for (b=1;b<=a;b++)
