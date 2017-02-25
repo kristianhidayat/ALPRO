@@ -1,22 +1,23 @@
 #include <iostream>
 using namespace std;
-
-int main ()
-{
-   int i = 10;
-
-   do
+//PROGRAM PERHITUNGAN ANGKAN KECELAKAAN
+//E-LEARNING DO WHILE
+int main () {
+//Kamus
+  int i = 2000;
+//ALGORITMA
+do
    {
-       int j = 10;
+      // Kamus
+       int j = 150;
        do
        {
-           cout << "i = " << i << " and j = " << j << endl;
+          //OUTPUT DATA
+           cout << "TAHUN : " << i << " ANGKA KECELAKAAN : " << j << endl;
            j--;
-       }while(j > 5);
-
-       i--;
-
-   }while(i > 4);
+       }while(j > 141);
+i--;
+   }while(i > 1998);
 
    return 0;
 }
