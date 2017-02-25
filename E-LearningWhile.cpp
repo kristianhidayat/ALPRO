@@ -5,15 +5,14 @@ using namespace std;
 int main () {
   //Kamus
    int i = 2015;
-   cout << "-----DATA TAHUNAN TARIF JALAN TOL-----" << endl;
+   cout << "!!-----------DATA TAHUNAN TARIF JALAN TOL-----------!!" << endl;
    // Algoritma
 while(i < 2018) {
        int j = 2000;
-       while(j < 2003){
-  cout << " >Tahun :  " << i << " >Tarif Jalan TOL = " << j << endl;
+       while(j < 2004){
+  cout << "    >Tahun :  " << i << " >Tarif Jalan TOL = " << j << endl;
       j++;
-      }
-      i++; cout << "-------KETERANGAN 3 BULAN (JANUARI - MARET)--------" << endl;
-   } cout << "-----2015-2017 Harga Tetap-----" << endl;
+    }i++; cout << "!!-------DATA 4 BULAN TERAKHIR JANUARI-APRIL--------!!" << endl;
+  } cout << "------------------2015-2017------------------" << endl;
    return 0;
 }
